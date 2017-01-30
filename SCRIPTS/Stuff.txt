@@ -1,0 +1,11 @@
+https://software.broadinstitute.org/wdl/userguide/
+
+# JAVA_1_8="/isilon/sequencing/Kurt/Programs/Java/jdk1.8.0_73/bin/"
+# WDL_DIR="/isilon/sequencing/Kurt/GIT_REPO/WDL/"
+
+##### validate wdl #####
+
+/isilon/sequencing/Kurt/Programs/Java/jdk1.8.0_73/bin/java -jar /isilon/sequencing/Kurt/GIT_REPO/WDL/wdltool-0.4.jar validate helloHaplotypeCaller.wdl
+
+
+
