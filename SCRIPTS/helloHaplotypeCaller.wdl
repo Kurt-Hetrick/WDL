@@ -27,6 +27,7 @@ task haplotypeCaller {
 		-T HaplotypeCaller \
 		-R ${RefFasta} \
 		-I ${inputBAM} \
+		-L 20 \
 		-o ${sampleName}.raw.indels.snps.vcf
 }
 	output {
