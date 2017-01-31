@@ -1,0 +1,9 @@
+{
+  "SimpleVariantDiscovery.refIndex": "/isilon/sequencing/GATK_resource_bundle/bwa_mem_0.7.5a_ref/human_g1k_v37_decoy.fasta.fai",
+  "SimpleVariantDiscovery.haplotypeCaller.bamIndex": "/isilon/sequencing/Seq_Proj/M_Valle_MendelianDisorders_SeqWholeExome_120511_GATK_3_3-0/BAM/AGGREGATE/NA12878@1075677394.bai",
+  "SimpleVariantDiscovery.haplotypeCaller.inputBAM": "/isilon/sequencing/Seq_Proj/M_Valle_MendelianDisorders_SeqWholeExome_120511_GATK_3_3-0/BAM/AGGREGATE/NA12878@1075677394.bam",
+  "SimpleVariantDiscovery.refFasta": "/isilon/sequencing/GATK_resource_bundle/bwa_mem_0.7.5a_ref/human_g1k_v37_decoy.fasta",
+  "SimpleVariantDiscovery.gatk": "/isilon/sequencing/CIDRSeqSuiteSoftware/gatk/GATK_3/GenomeAnalysisTK-3.7/GenomeAnalysisTK.jar",
+  "SimpleVariantDiscovery.refDict": "/isilon/sequencing/GATK_resource_bundle/bwa_mem_0.7.5a_ref/human_g1k_v37_decoy.dict",
+  "SimpleVariantDiscovery.name": "NA12878@1075677394"
+}
