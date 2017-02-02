@@ -1,0 +1,7 @@
+{
+  "jointCallingGenotypes.inputSamplesFile": "/isilon/sequencing/Kurt/GIT_REPO/WDL/SCRIPTS/trio_manifest.txt",
+  "jointCallingGenotypes.refFasta": "/isilon/sequencing/GATK_resource_bundle/bwa_mem_0.7.5a_ref/human_g1k_v37_decoy.fasta",
+  "jointCallingGenotypes.gatk": "/isilon/sequencing/CIDRSeqSuiteSoftware/gatk/GATK_3/GenomeAnalysisTK-3.7/GenomeAnalysisTK.jar",
+  "jointCallingGenotypes.refDict": "/isilon/sequencing/GATK_resource_bundle/bwa_mem_0.7.5a_ref/human_g1k_v37_decoy.dict",
+  "jointCallingGenotypes.refIndex": "/isilon/sequencing/GATK_resource_bundle/bwa_mem_0.7.5a_ref/human_g1k_v37_decoy.fasta.fai"
+}

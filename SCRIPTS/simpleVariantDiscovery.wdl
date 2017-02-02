@@ -60,7 +60,8 @@ workflow SimpleVariantDiscovery {
       RefFasta=refFasta, 
       GATK=gatk, 
       RefIndex=refIndex, 
-      RefDict=refDict, filteredSNPs=hardFilterSNP.filteredSNPs,
+      RefDict=refDict,
+      filteredSNPs=hardFilterSNP.filteredSNPs,
   		filteredIndels=hardFilterIndel.filteredIndels
   }
 }
