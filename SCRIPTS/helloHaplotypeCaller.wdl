@@ -30,6 +30,9 @@ task haplotypeCaller {
 		-L 20 \
 		-o ${sampleName}.raw.indels.snps.vcf
 }
+	runtime {
+	cpu : 1
+	}
 	output {
 		File rawVCF = "${sampleName}.raw.indels.snps.vcf"
 	}

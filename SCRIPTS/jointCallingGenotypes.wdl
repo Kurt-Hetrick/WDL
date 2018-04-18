@@ -43,6 +43,10 @@ task HaplotypeCallerERC {
   File bamFile
   File bamIndex
 
+	runtime {
+		sge_queue: "rnd.q,test.q,prod.q"
+		}
+
   command {
     java -jar ${GATK} \
         -T HaplotypeCaller \
@@ -65,6 +69,10 @@ task GenotypeGVCFs {
   File RefDict
   String sampleName
   Array[File] GVCFs # FILE GVCF IS THE OUTPUT FROM THE HAPLOTYPECALLERERC TASK ABOVE.
+
+	runtime {
+		sge_queue: "rnd.q,test.q,prod.q"
+		}
 
   command {
     java -jar ${GATK} \
